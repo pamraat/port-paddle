@@ -1,0 +1,39 @@
+# Parallelization
+Partition :	6 1 1
+
+# Mesh definition
+Lx :	1
+Ly :	0.5
+Lz :	0.000390625
+nx :	256
+ny :	128
+nz :	1
+
+# IBM properties
+Number of markers : 2000
+Cylinder diameter : 0.042
+Cylinder position : -0.2 0.1847 0
+Perturbation amp  : 0.1
+Perturbation freq : 6
+Rotation per sec  : 4
+
+# Fluid properties
+Gravity :                     0 -9.81 0
+Liquid dynamic viscosity :    1.137e-3
+Gas dynamic viscosity :       1.780e-5
+Liquid density :              1000
+Gas density :                 1.226
+Surface tension coefficient : 0.0728
+Inlet velocity :              0.8
+
+# Time integration
+Max timestep size : 5e-4
+Max cfl number :    0.9
+Max time : 5
+
+# Pressure solver
+Pressure tolerance : 	1e-6
+Pressure iteration : 	100
+
+# Ensight output
+Ensight output period : 5e-3
